@@ -1,0 +1,129 @@
+[
+  {
+    "title": "Learning Journey AI",
+    "description": "AI-powered learning platform that provides job-relevant project-based education modules. Also offers hands-on AI literacy workshops and professional training for individuals and organizations.",
+    "tech": ["AI/ML", "Python", "React", "Node.js"],
+    "tags": ["ai", "education", "startup"],
+    "repoUrl": "",
+    "liveUrl": "https://www.learningjourneyai.com/",
+    "image": "assets/img/learning-journey-ai-logo.png",
+    "highlighted": true
+  },
+  {
+    "title": "DC AI Guide",
+    "description": "Community resource portal connecting people in Washington, DC with AI policy, governance, and civic tech opportunities. Features curated learning resources, an event calendar, fellowship listings, and a directory of local meetups and organizations.",
+    "tech": ["Next.js", "React"],
+    "tags": ["ai", "policy", "community"],
+    "repoUrl": "",
+    "liveUrl": "https://dcai.guide/",
+    "image": "assets/img/dcai-guide.png"
+  },
+  {
+    "title": "Congress.gov MCP Server",
+    "description": "A Model Context Protocol (MCP) server providing comprehensive access to the official Congress.gov API (v3). Features 85 tools and 8 resources covering bills, members, committees, hearings, nominations, treaties, and more. Built with FastMCP.",
+    "tech": ["Python", "MCP", "FastMCP"],
+    "tags": ["ai", "government", "api"],
+    "repoUrl": "https://github.com/nawagner/congress-mcp",
+    "liveUrl": "",
+    "image": "assets/img/congress-mcp.png"
+  },
+  {
+    "title": "Booklingly",
+    "description": "AI-powered language learning tool that generates personalized illustrated storybooks with labeled objects in 21 languages, complete with IPA pronunciation guides.",
+    "tech": ["AI/ML", "Image Generation"],
+    "tags": ["ai", "education", "languages"],
+    "repoUrl": "",
+    "liveUrl": "https://booklingly.com/",
+    "image": "assets/img/booklingly.jpeg"
+  },
+  {
+    "title": "Congress Calendar",
+    "description": "Subscribable iCal calendar feed for U.S. Congress committee meetings. Select chambers and committees through a web interface, then subscribe directly in your favorite calendar app with a single click.",
+    "tech": ["Python", "FastAPI"],
+    "tags": ["government", "api"],
+    "repoUrl": "https://github.com/nawagner/congress-calendar",
+    "liveUrl": "https://congress-calendar-production.up.railway.app/",
+    "image": "assets/img/congress-calendar.png"
+  },
+  {
+    "title": "Fool 'Em Once",
+    "description": "Research study on AI text detection vulnerabilities. Found that 89% of AI-generated essays evaded detection after humanization, with detection rates dropping from 97.4% to 10.5%. Powered by Claude Code.",
+    "tech": ["Node.js", "Python", "AI/ML"],
+    "tags": ["ai", "research", "education"],
+    "repoUrl": "https://github.com/nawagner/fool-em-once",
+    "liveUrl": "https://nawagner.github.io/fool-em-once/",
+    "image": "assets/img/fool-em-once.png"
+  },
+  {
+    "title": "Witness Witness",
+    "description": "Interactive tool for exploring Congressional hearing witness records. Built for the 2025 Congressional Hackathon with Nick Ashworth and OpenAI Codex.",
+    "tech": ["JavaScript", "HTML", "CSS"],
+    "tags": ["frontend", "data", "government"],
+    "repoUrl": "https://github.com/nawagner/Congressional-Hackathon-2025/tree/main/witnessWitness",
+    "liveUrl": "https://nawagner.github.io/Congressional-Hackathon-2025/",
+    "image": "assets/img/witness-witness.png"
+  },
+  {
+    "title": "BASIS",
+    "description": "Autonomous research assistant for end-to-end DFT calculations in materials science. I developed the literature search and reading agent that mines scientific papers to inform simulation planning. Multi-agent system built with team.",
+    "tech": ["Python", "LangGraph", "LLMs", "Quantum ESPRESSO", "SLURM"],
+    "tags": ["ai", "materials", "research"],
+    "repoUrl": "",
+    "liveUrl": "https://github.com/abir0/dft-agent",
+    "image": "assets/img/basis.png"
+  },
+  {
+    "title": "AI Reading List for Policy People",
+    "description": "Curated collection of AI resources for policymakers and government professionals working at the intersection of artificial intelligence and public policy.",
+    "tech": ["Reading", "Policy"],
+    "tags": ["ai", "policy", "education"],
+    "repoUrl": "",
+    "liveUrl": "https://github.com/nawagner/AI-reading-list-for-policy-people",
+    "image": "assets/img/ai-reading-list.png"
+  },
+  {
+    "title": "Speak Up",
+    "description": "AI-powered oral exam platform that dynamically generates questions from teacher rubrics, tracks student progress with real-time struggle detection, and supports multilingual exams with text-to-speech. Prototyped at the Cursor Hackathon on January 30, 2026.",
+    "tech": ["Next.js", "FastAPI", "AI/ML", "Python"],
+    "tags": ["ai", "education", "hackathon"],
+    "repoUrl": "https://github.com/nawagner/speak-up",
+    "liveUrl": "https://speak-up-26i.pages.dev",
+    "image": "assets/img/speak-up.png"
+  },
+  {
+    "title": "Proposal Utility Suite",
+    "description": "Analyze proposal concept outlines with AI models to compare submissions against rubrics, generate synthetic data, and tag proposals automatically. Work in progress! :)",
+    "tech": ["AI/ML", "Next.js", "TypeScript"],
+    "tags": ["ai", "government", "productivity"],
+    "repoUrl": "",
+    "liveUrl": "https://proposal-utility-suite.vercel.app/",
+    "image": "assets/img/proposal_utility_suite.png"
+  },
+  {
+    "title": "Hill Jobs",
+    "description": "Job board aggregating open positions across the Senate, House, Capitol Police, Library of Congress, and Architect of the Capitol. Filter by category, organization, member, party, state, committee, and salary.",
+    "tech": ["Cloudflare Workers", "JavaScript", "HTML", "CSS"],
+    "tags": ["government", "careers"],
+    "repoUrl": "",
+    "liveUrl": "https://hill-jobs.org/",
+    "image": "assets/img/hill-jobs.png"
+  },
+  {
+    "title": "LinkedIn Network Dashboard",
+    "description": "Interactive dashboard for analyzing your LinkedIn network. Visualizes 1,100+ connections across industries, seniority levels, organization types, and growth over time with searchable directory and detailed breakdowns.",
+    "tech": ["Preact", "TypeScript", "ECharts", "Tailwind CSS"],
+    "tags": ["data", "frontend"],
+    "repoUrl": "https://github.com/nawagner/linkedin-dashboard",
+    "liveUrl": "https://linkedin-network-dashboard.pages.dev/",
+    "image": "assets/img/linkedin-network-dashboard.png"
+  },
+  {
+    "title": "Science RFIs",
+    "description": "Interactive resource tracking three federal Requests for Information on scientific funding and AI workforce development — NSF Tech Labs, OSTP Scientific Enterprise, and DOE Genesis Mission. Built for the Industrial Policy Salon, with a companion NotebookLM for deeper research.",
+    "tech": ["HTML", "CSS", "JavaScript"],
+    "tags": ["policy", "government", "science"],
+    "repoUrl": "https://github.com/nawagner/science-rfis",
+    "liveUrl": "https://nawagner.github.io/science-rfis/",
+    "image": "assets/img/science-rfis.png"
+  }
+]

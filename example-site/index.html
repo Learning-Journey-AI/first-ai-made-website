@@ -1,0 +1,256 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Nick Wagner — Portfolio</title>
+    <meta name="description" content="Portfolio of Nick Wagner: projects, experience, and contact." />
+    <meta property="og:title" content="Nick Wagner — Portfolio" />
+    <meta property="og:description" content="Projects, experience, and contact information." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://nickwagner.info/" />
+    <meta property="og:image" content="assets/img/og-card.svg" />
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <script defer src="assets/js/main.js"></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="./">Nick Wagner</a>
+        <nav class="nav">
+          <a href="projects.html">Projects</a>
+          <a href="presentations.html">Presentations</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+        <button class="theme-toggle" aria-label="Toggle dark mode" id="themeToggle">☾</button>
+        <button class="mobile-menu-toggle" aria-label="Open menu" aria-expanded="false" id="mobileMenuToggle">
+          <svg viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+        </button>
+      </div>
+    </header>
+
+    <div class="mobile-menu-overlay" id="mobileOverlay"></div>
+    <nav class="mobile-nav" id="mobileNav" aria-label="Mobile navigation">
+      <a href="./">
+        <svg class="mobile-nav-icon" viewBox="0 0 24 24"><path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/></svg>
+        Home
+      </a>
+      <a href="projects.html">
+        <svg class="mobile-nav-icon" viewBox="0 0 24 24"><path d="M20 6h-8l-2-2H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2zm0 12H4V8h16v10z"/></svg>
+        Projects
+      </a>
+      <a href="presentations.html">
+        <svg class="mobile-nav-icon" viewBox="0 0 24 24"><path d="M19 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2zm0 16H5V5h14v14zM7 17h10v-2H7zm0-4h10v-2H7zm0-4h10V7H7z"/></svg>
+        Presentations
+      </a>
+      <a href="contact.html">
+        <svg class="mobile-nav-icon" viewBox="0 0 24 24"><path d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2zm0 4-8 5-8-5V6l8 5 8-5v2z"/></svg>
+        Contact
+      </a>
+      <div class="mobile-theme-toggle">
+        <button id="mobileThemeToggle" aria-label="Toggle theme">
+          <span id="mobileThemeIcon">☾</span>
+          <span id="mobileThemeLabel">Dark mode</span>
+        </button>
+      </div>
+    </nav>
+
+    <main>
+      <section class="hero container" id="hero" aria-labelledby="intro-heading">
+        <div class="hero-text">
+          <p class="hero-eyebrow">AI × Government Policy</p>
+          <h1 id="intro-heading">Hi, I’m Nick Wagner</h1>
+          <p class="lede">
+            I'm the CEO of Learning Journey AI, a startup focused on promoting workforce AI literacy. I have ten years of experience bridging AI and government policy, spanning science funding, national security, and materials research. In my spare time, I organize and attend tech policy meetups and hackathons in DC.
+          </p>
+          <div class="hero-cta">
+            <a class="button primary" href="mailto:nwagner@learningjourneyai.com">Get in touch</a>
+            <button class="button secondary" type="button" id="happyButton">Whimsy</button>
+          </div>
+          <div class="socials">
+            <a href="https://github.com/nawagner" aria-label="GitHub">
+              <span class="icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="M12 .5a11.5 11.5 0 0 0-3.64 22.41c.58.11.79-.25.79-.55v-2.1c-3.2.7-3.88-1.38-3.88-1.38-.53-1.35-1.29-1.71-1.29-1.71-1.05-.72.08-.71.08-.71 1.16.08 1.77 1.2 1.77 1.2 1.03 1.76 2.71 1.25 3.37.96.1-.77.4-1.25.73-1.54-2.55-.29-5.23-1.28-5.23-5.7 0-1.26.45-2.29 1.2-3.1-.12-.29-.52-1.46.11-3.04 0 0 .98-.31 3.2 1.18a11.1 11.1 0 0 1 5.83 0c2.22-1.49 3.2-1.18 3.2-1.18.63 1.58.23 2.75.11 3.04.75.81 1.2 1.84 1.2 3.1 0 4.43-2.69 5.4-5.25 5.68.41.35.78 1.04.78 2.11v3.12c0 .3.2.66.8.55A11.5 11.5 0 0 0 12 .5Z"/></svg>
+              </span>
+            </a>
+            <a href="https://www.linkedin.com/in/wagnernicholas" aria-label="LinkedIn">
+              <span class="icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5.001 2.5 2.5 0 0 1 0-5zM3.5 9h3v12h-3zM9 9h2.9v1.65h.04c.4-.76 1.38-1.56 2.84-1.56 3.04 0 3.6 2 3.6 4.6V21h-3v-5.2c0-1.24-.02-2.84-1.73-2.84-1.73 0-2 1.35-2 2.75V21H9z"/></svg>
+              </span>
+              <span class="sr-only">LinkedIn</span>
+            </a>
+            <a href="mailto:nwagner@learningjourneyai.com" aria-label="Email">
+              <span class="icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="M2 6.5A2.5 2.5 0 0 1 4.5 4h15A2.5 2.5 0 0 1 22 6.5v11A2.5 2.5 0 0 1 19.5 20h-15A2.5 2.5 0 0 1 2 17.5v-11Zm2.3-.5 7.2 5.4L18.7 6H4.3Zm15.2 2.1-6.78 5.08a2 2 0 0 1-2.44 0L3.5 8.1V17.5c0 .55.45 1 1 1h15c.55 0 1-.45 1-1V8.1Z"/></svg>
+              </span>
+              <span class="sr-only">Email</span>
+            </a>
+            <a href="https://alearningjourney.substack.com/" aria-label="Substack">
+              <span class="icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="M3 5h18v3H3zM3 10h18v3H3z"/><path d="M12 14 3 11v8l9-4 9 4v-8z"/></svg>
+              </span>
+              <span class="sr-only">Substack</span>
+            </a>
+            <a href="https://scholar.google.com/citations?user=ITseh5wAAAAJ&hl=en" aria-label="Google Scholar">
+              <span class="icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="M12 3 2 9l10 6 10-6-10-6Zm0 8.2L6.47 8.1 12 5l5.53 3.1L12 11.2Z"/><path d="M4 14v3c0 2.2 3.58 4 8 4s8-1.8 8-4v-3l-8 4-8-4Z"/></svg>
+              </span>
+              <span class="sr-only">Scholar</span>
+            </a>
+            <a href="https://x.com/monsieurwagner" aria-label="X">
+              <span class="icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="M17.5 3H21l-7.5 8.6L21.5 21H16l-5-6.1L5 21H2l7.9-9L2.5 3H8l4.6 5.6L17.5 3Z"/></svg>
+              </span>
+              <span class="sr-only">X</span>
+            </a>
+          </div>
+        </div>
+        <div class="hero-media">
+          <div class="hero-portrait">
+            <img class="hero-img" src="assets/img/profile.jpg" alt="Portrait of Nick Wagner" />
+          </div>
+        </div>
+      </section>
+
+      <section class="container section" id="career-timeline" aria-labelledby="career-heading">
+        <div class="section-header">
+          <h2 id="career-heading">My Career Journey</h2>
+          <a class="link" href="https://github.com/nawagner/resume/blob/main/Resume.pdf" target="_blank" rel="noopener">View full resume</a>
+        </div>
+
+        <div class="timeline">
+          <div class="timeline-group">
+            <h3 class="timeline-group-title">Builder</h3>
+            <div class="timeline-entry">
+              <div class="timeline-marker"></div>
+              <div class="timeline-content">
+                <div class="timeline-date">May 2025 &ndash; Present</div>
+                <h4 class="timeline-role">Co-Founder &amp; CEO</h4>
+                <p class="timeline-org">Learning Journey AI</p>
+                <p class="timeline-desc">Building an AI literacy platform and coaching business that delivers workshops and hands-on training, helping over 100 (and counting) professionals develop practical AI skills.</p>
+              </div>
+            </div>
+            <div class="timeline-entry">
+              <div class="timeline-marker timeline-marker--small"></div>
+              <div class="timeline-content">
+                <p class="timeline-desc timeline-desc--community">Organizer of the DC AI Dinner Series (30+ attendees monthly) and the Industrial Policy Salon.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="timeline-group">
+            <h3 class="timeline-group-title">Policy Strategist</h3>
+            <div class="timeline-entry">
+              <div class="timeline-marker"></div>
+              <div class="timeline-content">
+                <div class="timeline-date">Sep 2024 &ndash; May 2025</div>
+                <h4 class="timeline-role">AAAS Science &amp; Technology Policy Fellow</h4>
+                <p class="timeline-org">National Science Foundation</p>
+                <p class="timeline-desc">Developed program evaluation strategy for NSF's $540M AI Institutes portfolio and reviewed funding proposals. Co-chaired the AAAS STPF AI &amp; National Security Affinity Groups.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="timeline-group">
+            <h3 class="timeline-group-title">Defense Analyst</h3>
+            <div class="timeline-entry">
+              <div class="timeline-marker"></div>
+              <div class="timeline-content">
+                <div class="timeline-date">Sep 2019 &ndash; Aug 2024</div>
+                <h4 class="timeline-role">Research Staff Member</h4>
+                <p class="timeline-org">Institute for Defense Analyses</p>
+                <p class="timeline-desc">Authored AI test and evaluation guidance for the DoD Chief Digital and AI Office. Conducted cost estimates, co-received 2020 Award for Extraordinary Achievement, and launched the company's generative AI newsletter.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="timeline-group">
+            <h3 class="timeline-group-title">Scientist</h3>
+            <div class="timeline-entry">
+              <div class="timeline-marker"></div>
+              <div class="timeline-content">
+                <div class="timeline-date">2014 &ndash; 2019</div>
+                <h4 class="timeline-role">PhD, Materials Science &amp; Engineering</h4>
+                <p class="timeline-org">Northwestern University</p>
+                <p class="timeline-desc">Applied machine learning to materials discovery, with research cited 800+ times. Research internships at Google Accelerated Science and Los Alamos National Laboratory.</p>
+              </div>
+            </div>
+            <div class="timeline-entry">
+              <div class="timeline-marker"></div>
+              <div class="timeline-content">
+                <div class="timeline-date">2010 &ndash; 2014</div>
+                <h4 class="timeline-role">BS, Materials Science &amp; Engineering</h4>
+                <p class="timeline-org">Arizona State University</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-cta">
+          <a class="button secondary" href="https://github.com/nawagner/resume/blob/main/Resume.pdf" target="_blank" rel="noopener">View full resume &rarr;</a>
+        </div>
+      </section>
+
+      <section class="container section">
+        <div class="section-header">
+          <h2>Featured Projects</h2>
+          <a class="link" href="projects.html">See all</a>
+        </div>
+        <div id="featuredProjects" class="card-grid"></div>
+      </section>
+
+      <section class="container section">
+        <div class="section-header">
+          <h2>Featured Presentations</h2>
+          <a class="link" href="presentations.html">See all</a>
+        </div>
+        <div id="featuredPresentations" class="card-grid"></div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <span>© <span id="year"></span> Nick Wagner</span>
+        <div class="footer-links">
+          <a href="projects.html">Projects</a>
+          <a href="presentations.html">Presentations</a>
+          <a href="contact.html">Contact</a>
+        </div>
+      </div>
+      <div class="container footer-credit">
+        <span>Made with <a href="https://claude.ai/code" target="_blank" rel="noopener">Claude Code</a></span>
+      </div>
+    </footer>
+
+    <script>
+      document.addEventListener('DOMContentLoaded', () => {
+        const year = document.getElementById('year');
+        if (year) year.textContent = new Date().getFullYear();
+        // Load featured projects (top 3)
+        loadProjects({ mountId: 'featuredProjects', limit: 3 });
+        loadProjects({ mountId: 'featuredPresentations', limit: 3, source: 'assets/data/presentations.json' });
+      });
+    </script>
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Nicholas (Nick) Wagner",
+        "url": "https://nickwagner.info/",
+        "sameAs": [
+          "https://github.com/nawagner",
+          "https://www.linkedin.com/in/wagnernicholas",
+          "https://alearningjourney.substack.com/",
+          "https://scholar.google.com/citations?user=ITseh5wAAAAJ&hl=en"
+        ],
+        "jobTitle": "CEO and Cofounder",
+        "email": "mailto:nwagner@learningjourneyai.com"
+      }
+    </script>
+  </body>
+  </html>
