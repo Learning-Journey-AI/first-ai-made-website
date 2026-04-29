@@ -54,16 +54,6 @@ Git is a separate tool that Claude Code uses behind the scenes.
 - **Mac:** open Claude Code, type the message: *"Please check whether Git is installed by running `git --version`."* If it isn't installed, Claude Code will guide you through installing it (usually by accepting macOS's prompt to install the Command Line Tools).
 - **Windows:** download and run the installer at **https://git-scm.com/download/win**. Click "Next" through every screen with default options. Then restart Claude Code.
 
-### 5. Verify everything works
-
-In Claude Code, send this message:
-
-```
-Please run `git --version` and tell me the output.
-```
-
-You should see something like `git version 2.x.x`. If you do, you're ready.
-
 ---
 
 ## Part 2 — Create your site's repo on GitHub (~5 min)
@@ -81,7 +71,11 @@ GitHub has a special rule: if you name a repo `<your-username>.github.io`, it au
 
 ## Part 3 — Get this starter kit and your repo onto your computer (~5 min)
 
-In Claude Code, pick a folder where your projects will live (anywhere is fine — creating `~/Documents/websites` is a good default). Then send Claude Code this message, **replacing the username and URL with your own**:
+In Claude Code, pick a working folder where your projects will live (anywhere is fine — creating `~/Documents/websites` is a good default). You should see something like this: 
+<img width="252" height="142" alt="image" src="https://github.com/user-attachments/assets/d9b24a20-1629-4b70-91a8-06e81ea790fc" />
+
+
+Then send Claude Code this message, **replacing the username and URL with your own**:
 
 ```
 I want to set up two folders inside ~/Documents/websites.
@@ -93,7 +87,7 @@ I want to set up two folders inside ~/Documents/websites.
 Then show me the folder structure so I can confirm.
 ```
 
-When it's done you should have two folders side by side:
+Accept any requests Claude Code makes. When it's done you should have two folders side by side:
 
 ```
 ~/Documents/websites/
@@ -210,6 +204,9 @@ You can also drop new files into `../first-ai-made-website/context-files/` and a
 
 **Claude is suggesting I install something.**
 - Go ahead and allow it. If you want to understand what Claude is asking for, copy its request to another chat and ask what it does.
+
+**Claude Code gives an API error message.**
+- Anthropic's servers may be down. Check https://status.claude.com/
 
 **My issue is not mentioned here.**
 - Submit an issue using the issues tab in the GitHub repository, and I will reach out.
