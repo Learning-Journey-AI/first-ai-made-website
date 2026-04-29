@@ -209,4 +209,7 @@ You can also drop new files into `../first-ai-made-website/context-files/` and a
 - It can take up to 5 minutes for changes to appear after a successful deploy.
 
 **Claude is suggesting I install something.**
-- Go ahead and allow it. If you want to understand what Claude is asking for, copy its request to another chat and ask what it does.  
+- Go ahead and allow it. If you want to understand what Claude is asking for, copy its request to another chat and ask what it does.
+
+**My issue is not mentioned here.**
+- Submit an issue using the issues tab in the GitHub repository, and I will reach out.
