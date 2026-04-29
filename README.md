@@ -207,4 +207,4 @@ You can also drop new files into `first-ai-made-website/context-files/` and ask 
 - Anthropic's servers may be down. Check https://status.claude.com/
 
 **My issue is not mentioned here.**
-- Submit an issue using the issues tab in the GitHub repository, and I will reach out.
+- Try asking Claude Code for help. If you are still stuck, submit an issue using the issues tab in the GitHub repository, and I will reach out.
