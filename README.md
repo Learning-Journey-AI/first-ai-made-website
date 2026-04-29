@@ -82,7 +82,7 @@ I want to set up two folders inside ~/Documents/websites.
 
 1. Clone https://github.com/Learning-Journey-AI/first-ai-made-website into a folder called "first-ai-made-website".
 2. Clone https://github.com/<YOUR-USERNAME>/<YOUR-USERNAME>.github.io into a folder called "<YOUR-USERNAME>.github.io" right next to it.
-3. Copy the file CLAUDE.md from first-ai-made-website into <YOUR-USERNAME>.github.io. Be sure to read it.
+3. Copy the file CLAUDE.md from first-ai-made-website into <YOUR-USERNAME>.github.io. Be sure to read it and listen to its instructions.
 
 Then show me the folder structure so I can confirm.
 ```
