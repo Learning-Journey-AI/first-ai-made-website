@@ -82,7 +82,7 @@ I want to set up two folders inside ~/Documents/websites.
 
 1. Clone https://github.com/Learning-Journey-AI/first-ai-made-website into a folder called "first-ai-made-website".
 2. Clone https://github.com/<YOUR-USERNAME>/<YOUR-USERNAME>.github.io into a folder called "<YOUR-USERNAME>.github.io" right next to it.
-3. Copy the file CLAUDE.md from first-ai-made-website into <YOUR-USERNAME>.github.io.
+3. Copy the file CLAUDE.md from first-ai-made-website into <YOUR-USERNAME>.github.io. Be sure to read it.
 
 Then show me the folder structure so I can confirm.
 ```
@@ -115,17 +115,15 @@ File names don't matter. Drop in whatever you have — Claude Code will figure i
 
 ## Part 5 — Have Claude Code build your site (~15 min)
 
-In Claude Code, **switch the working folder to your site repo**. Open the folder `<YOUR-USERNAME>.github.io/` directly in Claude Code.
-
-Then send this **starter prompt** (copy and paste the whole thing):
+In the same Claude Code session you used in Part 3, send this **starter prompt** (copy and paste the whole thing, replacing `<YOUR-USERNAME>` with your GitHub username):
 
 ```
 I want you to build a personal portfolio website for me.
 
-- Read every file in ../first-ai-made-website/context-files/ to learn about me.
-- Look at ../first-ai-made-website/example-site/ as a structural and stylistic reference (do NOT deploy it — it belongs to someone else).
+- Read every file in first-ai-made-website/context-files/ to learn about me.
+- Look at first-ai-made-website/example-site/ as a structural and stylistic reference (do NOT deploy it — it belongs to someone else).
 - Build my site as plain HTML, CSS, and vanilla JavaScript with no build step (no React, no npm install, no frameworks). It must work as a github io website.
-- Write all output files into the current folder.
+- Write all output files into <YOUR-USERNAME>.github.io
 - Copy my resume into assets/ and my photo into assets/img/.
 - Before you start writing files, summarize what you found in my context-files and ask me 3–5 clarifying questions about style, tone, and which projects to feature. Wait for my answers before building.
 ```
@@ -143,7 +141,7 @@ Claude will ask you questions — answer them in plain language. Then it'll buil
 Send Claude Code:
 
 ```
-Please start a local web server on port 8000 from the current folder so I can preview my site.
+Please start a local web server on port 8000 from the <YOUR-USERNAME>.github.io folder so I can preview my site.
 ```
 
 Open **http://localhost:8000** in your browser. You should see your site. When you're done previewing, come back to Claude Code and send `Stop the server.`
@@ -157,7 +155,7 @@ Look it over. Fix anything you don't like by asking Claude.
 When you're happy with the site, send Claude Code:
 
 ```
-Please commit all the files in this folder with a sensible commit message, then push to the GitHub repo.
+Please commit all the files in <YOUR-USERNAME>.github.io with a sensible commit message, then push to the GitHub repo.
 ```
 
 Claude will ask for confirmation before pushing. 
@@ -179,12 +177,12 @@ Then, in your browser:
 
 Whenever you want to update the site:
 
-1. Open Claude Code in the `<YOUR-USERNAME>.github.io/` folder.
-2. Tell it what to change in plain English. *("Add a new project called X."  / "Change my bio.")*
-3. When it's done, tell it: *"Commit and push."*
+1. Open Claude Code in `~/Documents/websites/` (same folder as before).
+2. Tell it what to change in plain English. *("Update my <YOUR-USERNAME>.github.io site: add a new project called X."  / "Change my bio on my <YOUR-USERNAME>.github.io site.")*
+3. When it's done, tell it: *"Commit and push <YOUR-USERNAME>.github.io."*
 4. Wait a minute. The live site updates automatically.
 
-You can also drop new files into `../first-ai-made-website/context-files/` and ask Claude to re-read them.
+You can also drop new files into `first-ai-made-website/context-files/` and ask Claude to re-read them.
 
 ---
 
